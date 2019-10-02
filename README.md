@@ -8,7 +8,7 @@ A CSS-in-JS library that makes it easy to implement, and manage styles in React 
 
 2. Encourages the coupling of CSS and HTML.
 
-3. EnforcesState-based styling
+3. Enforces State-based styling
 
 One of the very powerful patterns CSS-in-JS enables is state-based styling. Technically it is usually implemented as a JavaScript function which receives a state object and returns CSS properties. As a result, a CSS rule is generated that corresponds to the state of an element. Compared to a more traditional way, where we build a class attribute containing multiple class names, this has some advantages
 

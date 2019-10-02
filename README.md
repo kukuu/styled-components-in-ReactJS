@@ -1,6 +1,6 @@
 # CSS in JavaScript Applications
 
-A CSS-in-JS library that makes it easy to implement, and manage styles in React js projects.
+A CSS-in-JS library makes it easy to implement, and manage styles in React js projects. Styles converges at the component level and are generated as props from state changes. It dynamically enforces "Dead Code Elimination" by scoping styles. It resolves conflictsin in CSS global  properties and values by creating unique hashes.
 
 ## Benefits
 

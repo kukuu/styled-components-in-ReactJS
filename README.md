@@ -4,6 +4,8 @@ A CSS-in-JS library makes it easy to implement, and manage styles in React js pr
 
 It automates many problems you would normally care about, unlike say in BEM where you have to stick to conventions and patterns.Having the thought of architecting for BLOCKS, ELEMENTS and MODIFIERS . It brings an end to unnecessary naming concerns. 
 
+CSS-in-JS requires loading NPM libraries, and maintaining them. This might sound counter intuitive to performance and maintainability (as CSS is a native feature of the browser requiring less tooling), but the gain far outweighs the conventional ways of writing, updating, maintaing redundant CSS as an application grows (read further below).
+
 
 
 ## Benefits

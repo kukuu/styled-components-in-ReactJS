@@ -2,6 +2,10 @@
 
 A CSS-in-JS library makes it easy to implement, and manage styles in React js projects. Styles converges at the component level and are generated as props from state changes. It dynamically enforces "Dead Code Elimination" by scoping styles. It resolves conflictsin in CSS global  properties and values by creating unique hashes.
 
+It automates many problems you would normally care about, unlike say in BEM where you have to stick to conventions and patterns.Having the thought of architecting for BLOCKS, ELEMENTS and MODIFIERS . It brings an end to unnecessary naming concerns. 
+
+Critical CSS is a feature where CSS-in-JS is done with an SSR solution. Since the CSS are coupled with the components or elements, once they are removed from an application, the styles are also directly removed. Removes redundancies and ehnances performance.
+
 ## Benefits
 
 1. CSS-in-JS promotes explicit, traceable and granular dependencies.

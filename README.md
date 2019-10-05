@@ -1,12 +1,10 @@
 # CSS in JavaScript Applications
 
-A CSS-in-JS library makes it easy to implement, and manage styles in React js projects. Styles converges at the component level and are generated as props from state changes. It dynamically enforces "Dead Code Elimination" by scoping styles. It resolves conflictsin in CSS global  properties and values by creating unique hashes.
+A CSS-in-JS library makes it easy to implement, and manage styles in React js projects. Styles converges at the component level and are generated as props from state changes. It dynamically enforces "Dead Code Elimination" by scoping styles. It resolves conflicts in in CSS global  properties and values by creating unique hashes.
 
-It automates many problems you would normally care about, unlike say in BEM where you have to stick to conventions and patterns.Having the thought of architecting for BLOCKS, ELEMENTS and MODIFIERS . It brings an end to unnecessary naming concerns. 
+It automates many problems you would normally care about, unlike say in BEM where you have to stick to conventions and patterns. Having the thought of architecting for BLOCKS, ELEMENTS and MODIFIERS. It brings an end to unnecessary naming concerns. 
 
-CSS-in-JS requires loading NPM libraries, and maintaining them. This might sound counter intuitive to performance and maintainability (as CSS is a native feature of the browser requiring less tooling), but the gain far outweighs the conventional ways of writing, updating, maintaing redundant CSS as an application grows (read further below).
-
-
+CSS-in-JS requires loading NPM libraries(Style Components, Glamourous, Emotions etc), and maintaining them. This might sound counter intuitive to performance and maintainability (as CSS is a native feature of the browser requiring less tooling), but the gain far outweighs the conventional ways of writing, updating, maintaing redundant CSS as an application grows.
 
 ## Benefits
 
@@ -99,6 +97,10 @@ gulp.task('default', ['css']);
 
 ```
 ## Resources
+
+https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha 
+
+https://github.com/kukuu/setting-up-react-typescript-sass-webpack-babel
 
 https://github.com/airbnb/javascript
 

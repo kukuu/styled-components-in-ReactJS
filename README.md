@@ -98,6 +98,8 @@ gulp.task('default', ['css']);
 ```
 ## Resources
 
+https://github.com/kukuu/react-native-ChatApp 
+
 https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha 
 
 https://github.com/kukuu/setting-up-react-typescript-sass-webpack-babel

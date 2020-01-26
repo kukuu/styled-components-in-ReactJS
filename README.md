@@ -96,6 +96,25 @@ gulp.task('css', () => {
 gulp.task('default', ['css']);
 
 ```
+
+
+# CSS  Module versus Style Components
+
+CSS Module relies on creating a dynamic class names for each locally defined style, making sure no visual regressions are caused by injecting new css properties, all styles were properly encapsulated.
+
+However,  by itself doesn’t solve the core problems of CSS, it only shows you a way of localizing style definitions: a clever way of automating BEM so you don’t need to think about chosing a class name ever again.
+But it does not alleviate the need for a good and predictable style architecture that is easy to extend reuse and control with the least amount of effort.
+
+Styled-components are pure visual primitives that act as a wrapping component; they can be mapped to actual html tags and what they do is wrap the children components with the styled-component.
+
+Styled-components provides a very simple pattern to reuse and fully separate UI from Functional and Stateful components. Creating an api that has access to native tags either in the browser as HTML or Natively using React Native.
+
+https://medium.com/@perezpriego7/css-evolution-from-css-sass-bem-css-modules-to-styled-components-d4c1da3a659b
+
+https://hashnode.com/post/css-modules-vs-styled-components-ciz2g9dt7000h7c535j35rbfu
+
+https://github.com/styled-components/styled-components
+
 ## Resources
 
 https://github.com/kukuu/react-native-ChatApp 
